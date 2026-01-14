@@ -2,6 +2,7 @@
 This is a machine learning project to automate hand written digits recognition
 
 Handwritten Digit Recognition using MNIST
+
 📌 Project Overview
 
 This project implements a machine learning model to recognize handwritten digits using the MNIST dataset. The MNIST dataset contains 60,000 grayscale images of handwritten digits (0–9), each of size 28×28 pixels. The goal is to train a supervised learning model that can accurately classify digits from image data.
@@ -79,14 +80,17 @@ Reference: https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data
 🚀 Usage
 
 Clone the repository:
+```bash
 
 git clone https://github.com/your-username/mnist-digit-recognition.git
+
+# Install UV
 
 macOS & Linux
  Official Installer Script (Recommended):
 
   curl -LsSf https://astral.sh/uv/install.sh | sh
-  # Or if curl is not available:
+   # Or if curl is not available:
   wget -qO- https://astral.sh/uv/install.sh | sh
 
   Pip: pip install uv or pip3 install uv. 
@@ -98,7 +102,7 @@ Windows
   Winget: winget install --id=astral-sh.uv -e.
   
 uv venv .venv
-
+```
 ## Activate your virtual environment for the current session:
  macOS/Linux: source .venv/bin/activate
  Windows (Command Prompt): .venv\Scripts\activate

@@ -56,7 +56,7 @@ Pandas
 
 Matplotlib / Seaborn
 
-Scikit-learn / TensorFlow / Keras / PyTorch
+Scikit-learn / TensorFlow / PyTorch
 
 Jupyter Notebook
 
@@ -74,16 +74,48 @@ Image size: 28×28 pixels
 
 10 classes (digits 0–9)
 
+Reference: https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data
+
 🚀 Usage
 
 Clone the repository:
 
 git clone https://github.com/your-username/mnist-digit-recognition.git
 
+macOS & Linux
+ Official Installer Script (Recommended):
 
-Install dependencies:
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  # Or if curl is not available:
+  wget -qO- https://astral.sh/uv/install.sh | sh
 
-pip install -r requirements.txt
+  Pip: pip install uv or pip3 install uv. 
+
+Windows
+ PowerShell (Official Installer):
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+  Winget: winget install --id=astral-sh.uv -e.
+  
+uv venv .venv
+
+## Activate your virtual environment for the current session:
+ macOS/Linux: source .venv/bin/activate
+ Windows (Command Prompt): .venv\Scripts\activate
+
+
+## Install dependencies:
+
+ pip install -r requirements.txt
+
+Or
+ uv pip install pandas numpy seaborn matplotlib.pyplot scikit-learn os torch torchvision torchaudio
+
+
+## Deactivate the environment
+ deactivate
+ exit
+
 
 
 Run the training script or notebook:

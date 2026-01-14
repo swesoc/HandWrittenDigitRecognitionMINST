@@ -104,9 +104,11 @@ Windows
 uv venv .venv
 ```
 ## Activate your virtual environment for the current session:
+```bash
+
  macOS/Linux: source .venv/bin/activate
  Windows (Command Prompt): .venv\Scripts\activate
-
+```
 
 ## Install dependencies:
 

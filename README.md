@@ -115,7 +115,8 @@ uv venv .venv
  pip install -r requirements.txt
 
 Or
- uv pip install pandas numpy seaborn matplotlib.pyplot scikit-learn os torch torchvision torchaudio
+ uv pip install pandas numpy seaborn matplotlib.pyplot scikit-learn os torch torchvision torchaudio onnxscript
+
 
 
 ## Deactivate the environment

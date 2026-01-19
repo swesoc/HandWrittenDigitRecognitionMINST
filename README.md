@@ -125,9 +125,10 @@ Or
 
 
 
-Run the training script or notebook:
+Run the training script:
 
 python train.py
 
+Note: Running the training script will create 4 models and 4 data files in the models
 
-or open the Jupyter Notebook.
+

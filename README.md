@@ -133,3 +133,13 @@ Note: Running the training script will create 4 models and 4 data files in the m
 
 
 Note: Running the MINST jupoyter notebook, will download and store input data in data folder
+
+Final Project Directory structure after running 
+    project/
+    ├── MNIST.py
+    ├── train.py
+    ├── models/
+    │── data/   
+    ├── README.md
+    └── requirements.txt
+   
